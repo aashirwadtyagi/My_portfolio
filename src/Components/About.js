@@ -13,7 +13,7 @@ const About = () => {
           <p>
             Hi, my name is <b>Naman Jain</b> and I am from Chennai, India.
             I'm a <b>MERN stack web developer</b> and a school student pursuing <b>in grade 12 </b>. <br/><br/>
-            I am interstd in learning <b>new languages</b> which can help me with my projects and increase my skills.
+            I am interested in learning <b>new languages</b> which can help me with my projects and increase my skills.
             I love to create projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, Links in the <b>Footer</b> section.<br/>
             Apart from coding I love to play videogames, and travle.
