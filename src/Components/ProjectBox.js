@@ -3,18 +3,23 @@ import {FaGithub} from "react-icons/fa";
 import {CgFileDocument} from "react-icons/cg";
 
 
-const  ProjectBox = ({projectPhoto, projectName}) => {
+const  ProjectBox = ({projectPhoto, projectKey, projectName}) => {
   const desc = {
     StarbattleGithub : "https://github.com/officialDeveloper01/star-battle",
     StarbattleWebsite : "https://starbattle-game.vercel.app/",
     
     chunkeymonkeyGithub:"https://github.com/officialDeveloper01/chunkey-monkey",
-    chunkeymonkeyWebsite:"https://newsletter-signup-teal.vercel.app/",
   
     PocketDictGithub : "https://github.com/officialDeveloper01/Pocket-Dictionary",
   
     FashionStoreGithub:"https://github.com/officialDeveloper01/Fashionstore",
     FashionStoreWebsite:"https://fashionstore-beryl.vercel.app/",
+
+    ResumeBuilderGithub:"https://github.com/officialDeveloper01/react-resume-builder",
+    ResumeBuilderWebsite:"https://resumebuilder-nj.vercel.app/",
+
+    FingerSpeedsGithub:"https://github.com/officialDeveloper01/finger-speeds",
+    FingerSpeedsWebsite:"https://fingerspeeds.vercel.app",
   }
 
   let show ='';
@@ -29,15 +34,15 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             <br />
             <h3>{projectName}</h3>
             <br />
-            {desc[projectName + 'Desc']}
+            {desc[projectKey + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
+            <a style={{display:show}} href={desc[projectKey + 'Github']} target='_blank'>
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn' href={desc[projectName + 'Website']}><CgFileDocument/> Demo</button>
+            <a href={desc[projectKey + 'Website']} target='_blank'>
+              <button className='projectbtn' href={desc[projectKey + 'Website']}><CgFileDocument/> Demo</button>
             </a>
         </div>
     </div>
