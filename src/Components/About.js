@@ -15,7 +15,7 @@ const About = () => {
 
 I excel in solving complex challenges with my strong problem- solving skills and attention to detail. I'm always eager to learn and keep up with the rapidly evolving technology industry. 
 
-Along with my technical skills, I am an excellent communicator and collaborator, who can work effectively independently and as part of a team. I'm excited to connect with fellow tech enthusiasts and explore new opportunities to grow and develop professionally
+Along with my technical skills, I am an excellent communicator and collaborator, who can work effectively independently and as part of a team. I'm excited to connect with fellow tech enthusiasts and explore new opportunities to grow and develop professionally.
           </p>
         </div>
 
