@@ -4,7 +4,6 @@ import mobile from "../LottieFiles/mobile-first.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
-import { IoLogoGameControllerB } from "react-icons/io";
 
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>NAMAN JAIN</b></h1>
+          <h1>I'M <b>AASHIRWAD TYAGI</b></h1>
           <Typed/>   
         </div>
 
@@ -30,14 +29,13 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
+          My name is Aashirwad Tyagi, persuing BTech in Computer Science and  Engineering at KIET Group of Institutions.
             I want to do work that challenges me as a developer & work that I can 
             be proud of.<br /><br />
-            I am fluent in <b>Python</b> and know a bit of <b>C++</b> and am working on a few 
-            projects in the <b>React</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>C#</b> and<b> Rust</b> in the near future. <br /><br />
-            Also, I love <b>Playing video Games</b>  <IoLogoGameControllerB style={{scale:"1.5", rotate:"15deg"}}/>   
+            I am fluent in <b>React</b> and know <b>Figma</b> and am working on a few 
+            projects in the <b>React and Nodejs</b> stack.<br />
+            I an learning <b>Next.js</b>, <b>Java</b> currently. <br /><br />
+            Also, I love <b>playing Basketball</b>   
           </p>
         </div>
         <Tilt>

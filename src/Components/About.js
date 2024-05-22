@@ -11,12 +11,11 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Naman Jain</b> and I am from Chennai, India.
-            I'm a <b>MERN stack web developer</b> and a school student pursuing <b>in grade 12 </b>. <br/><br/>
-            I am interested in learning <b>new languages</b> which can help me with my projects and increase my skills.
-            I love to create projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, Links in the <b>Footer</b> section.<br/>
-            Apart from coding I love to play videogames, and travle.
+          My name is Aashirwad Tyagi, I'm a B.Tech CSE 3rd year student with a passion for Web development and data structures and algorithm. I also enjoy competitive programming and have solved 100+ problems on Leetcode. To improve my skills, I regularly practice on Leetcode and GeeksforGeeks. 
+
+I excel in solving complex challenges with my strong problem- solving skills and attention to detail. I'm always eager to learn and keep up with the rapidly evolving technology industry. 
+
+Along with my technical skills, I am an excellent communicator and collaborator, who can work effectively independently and as part of a team. I'm excited to connect with fellow tech enthusiasts and explore new opportunities to grow and develop professionally
           </p>
         </div>
 
@@ -35,14 +34,12 @@ const About = () => {
       <h1 className='SkillsHeading'>Professional Skillset</h1>
       <div className='skills'>
         
-        <Skills skill='python' />
         <Skills skill='React' />
         <Skills skill='Node' />
         <Skills skill='Git' />
         <Skills skill='Github' />
         <Skills skill='Javascript' />
-        <Skills skill='C++' />
-        <Skills skill='arduino' />
+        <Skills skill='JAVA' />
         <Skills skill='Npm' />
         <Skills skill='Html'/>
         <Skills skill='css' />
