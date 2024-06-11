@@ -8,8 +8,8 @@ const  ProjectBox = ({projectPhoto, projectKey, projectName}) => {
     sneakerGithub : "https://github.com/aashirwadtyagi/Sneakered",
     sneakerWebsite : "https://aashirwadtyagi.github.io/Sneakered/",
     
-    // chunkeymonkeyGithub:"https://github.com/officialDeveloper01/chunkey-monkey",
-    // PocketDictGithub : "https://github.com/officialDeveloper01/Pocket-Dictionary",
+    collGithub:"https://github.com/aashirwadtyagi/cgram",
+    collWebsite : "https://collgram.netlify.app/",
   
     // FashionStoreGithub:"https://github.com/officialDeveloper01/Fashionstore",
     // FashionStoreWebsite:"https://fashionstore-beryl.vercel.app/",

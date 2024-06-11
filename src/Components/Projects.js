@@ -6,6 +6,7 @@ import dict from "../images/vocabulary.gif"
 import resumeb from "../images/resumebuilder.png"
 import fingerspeeds from "../images/fingerspeeds.png"
 import image from "../images/image.png"
+import image2 from "../images/image2.png"
 
 const Projects = () => {
   return (
@@ -13,6 +14,7 @@ const Projects = () => {
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
         <ProjectBox projectPhoto={image} projectName="Sneakered" projectKey="sneaker" />
+        <ProjectBox projectPhoto={image2} projectName="collGram" projectKey="coll" />
         {/* <ProjectBox projectPhoto={chunkymonkey} projectName="Chunky Monkey App" projectKey="chunkeymonkey" />
         <ProjectBox projectPhoto={dict} projectName="Pocket Dictonary App" projectKey="PocketDict" />
         <ProjectBox projectPhoto={fashionstore} projectName="Fashion Store" projectKey="FashionStore" />
